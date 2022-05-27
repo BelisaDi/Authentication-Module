@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+    Welcome, {{ name }}!
+</h1>
+<h2 class="subtitle">
+    Last failed attempt to login was {{date}}, and there have been {{num}} failed logins since you were last here!
+</h2>
+{% endblock %}
